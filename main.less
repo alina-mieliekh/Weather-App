@@ -1,0 +1,86 @@
+// out: main.css, sourcemap: false, compress: true
+html{
+  height: 100%;
+}
+
+body{
+  background-image: url(img/default.jpg);
+  background-color: blue;
+  background-size: cover;
+  height: 100vh;
+  margin: 0px;
+  overflow: hidden;
+  background-position: center;
+  padding-top: 15vh;
+
+  &.hide-all *{
+    display: none !important;
+  }
+}
+
+.weather-item{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 0 0 5px black, 0 0 10px black;
+}
+
+button{
+  width: 88px;
+  height: 36px;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #333333;
+  border: none;
+  font-size: 1rem;
+  box-shadow: 0px 1px 2px 1px black;
+
+    &:active,&:hover{
+    background-color: #595959;
+  }
+}
+
+#top{
+  position:absolute;
+  //background-color: purple;
+  top: 100%/6;
+  left: 0;
+  height: 100%/6;
+  width: 100%;
+}
+
+#top-left{
+  position:absolute;
+  //background-color: orange;
+  top: 33.33%;
+  left: 0;
+  height: 33.33%;
+  width: 100%/2;
+}
+
+#top-right{
+  position:absolute;
+  //background-color: red;
+  top: 33.33%;
+  right: 0;
+  height: 33.33%;
+  width: 100%/2;
+}
+
+#bottom-left{
+  position:absolute;
+  //background-color: green;
+  bottom: 0;
+  left: 0;
+  height: 33.33%;
+  width: 100%/2;
+}
+
+#bottom-right{
+  position:absolute;
+  //background-color: blue;
+  bottom: 0;
+  right: 0;
+  height: 33.33%;
+  width: 100%/2;
+}

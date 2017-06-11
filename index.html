@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+
+    <meta charset="utf-8">
+    <title>Weather App</title>
+  </head>
+  <body class="hide-all">
+
+
+    <div id="top">
+      <h1 class="weather-item">Temperature:
+        <span id="temperature"></span>
+        <button id="buttonC" style="display: none;">°C</button>
+        <button id="buttonF" style="display: none;">°F</button>
+      </h1>
+    </div>
+
+    <div id="top-left">
+      <h3 class="weather-item">Feels like: <span id="realTemp"></span></h3>
+    </div>
+
+    <div id="top-right">
+      <h1 class="weather-item"><span id="summary"></span></h1>
+    </div>
+
+    <div id="bottom-left">
+      <h1 class="weather-item">Humidity: <span id="humidity"></span>%</h1>
+    </div>
+
+    <div id="bottom-right">
+      <h1 class="weather-item">Wind Speed: <span id="windSpeed"></span> km/h</h1>
+    </div>
+
+
+  <script src="jquery.js"></script>
+  <script src="main.js"></script>
+
+  </body>
+</html>
